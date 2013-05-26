@@ -5,7 +5,7 @@ require 'pattern/structural'
 require 'pattern/structural/composite'
 require 'test/unit'
 
-class LoadTest < Test::Unit::TestCase
+class Load < Test::Unit::TestCase
   def test_instantiation
     assert_not_nil( Pattern.new,                            "instantiate Pattern" )
     assert_not_nil( Pattern::Behavioral.new,                "instantiate Pattern::Behavioral" )

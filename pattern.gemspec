@@ -6,6 +6,6 @@ Gem::Specification.new do |s|
   s.description = 'Implementations of various design patterns from the GoF book'
   s.authors     = ['Jeffrey Hayes Anderson']
   s.email       = 'info+rubygems@unlocalhost.com'
-  s.files       = ['lib/pattern/toc.rb']
+  s.files       = ['lib/pattern.rb']
   s.homepage    = 'http://blog.unlocalhost.com'
 end

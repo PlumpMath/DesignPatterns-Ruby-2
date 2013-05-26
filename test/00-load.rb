@@ -1,8 +1,16 @@
 require 'pattern'
+require 'pattern/behavioral'
+require 'pattern/creational'
+require 'pattern/structural'
+require 'pattern/structural/composite'
 require 'test/unit'
 
 class LoadTest < Test::Unit::TestCase
-  def test_pattern
-    assert_not_nil( Pattern.new, "instantiate Pattern" )
+  def test_instantiation
+    assert_not_nil( Pattern.new,                            "instantiate Pattern" )
+    assert_not_nil( Pattern::Behavioral.new,                "instantiate Pattern::Behavioral" )
+    assert_not_nil( Pattern::Creational.new,                "instantiate Pattern::Creational" )
+    assert_not_nil( Pattern::Structural.new,                "instantiate Pattern::Structural" )
+    assert_not_nil( Pattern::Structural::Composite.new,     "instantiate Pattern::Structural" )
   end
 end

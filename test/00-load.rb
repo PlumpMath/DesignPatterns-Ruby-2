@@ -1,8 +1,8 @@
-require 'test/unit'
 require 'pattern'
+require 'test/unit'
 
-class PatternTest < Test::Unit::TestCase
-  def load_toc
-    assert_equal 1, 1
+class LoadTest < Test::Unit::TestCase
+  def test_pattern
+    assert_not_nil( Pattern.new, "instantiate Pattern" )
   end
 end

@@ -1,0 +1,3 @@
+class Pattern::TOC
+
+end

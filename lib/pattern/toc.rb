@@ -1,3 +1,0 @@
-class Pattern::TOC
-
-end

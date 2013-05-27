@@ -3,9 +3,6 @@ require 'pattern'
   require 'pattern/creational'
   require 'pattern/structural'
     require 'pattern/structural/composite'
-      require 'pattern/component'
-      require 'pattern/composite'
-      require 'pattern/leaf'
 
 require 'test/unit'
 
